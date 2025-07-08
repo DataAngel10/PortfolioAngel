@@ -226,8 +226,7 @@ DROP COLUMN  SaleDate;
 
 -- ***Data Source*** -- 
 
--- Nashville Housing Data
--- https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data
+-- Data Source: Nashville Housing Data. Available in Kaggle: https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data
 
 
 
