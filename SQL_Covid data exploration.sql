@@ -30,6 +30,10 @@ location,
 from coviddeaths1
 order by 1,2;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_2.png
+
+
 
 
 -- Looking at Total Cases vs Total Deaths --
@@ -46,6 +50,10 @@ WHERE location IN ('Netherlands', 'Chile')  -- Filters for only Netherlands and 
 and continent is not null
 ORDER BY 1,2;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_3.png
+
+
 
 
 -- Looking at Total Cases vs Population -- 
@@ -60,6 +68,10 @@ SELECT
 FROM coviddeaths1
 ORDER BY location, date;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_4.png
+
+
 
 
 -- Looking at countries with highest infection rate compared to population --
@@ -73,6 +85,9 @@ FROM coviddeaths1
 Group by Location, Population
 ORDER BY PercentPopulationInfected desc ;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_5.png
+
 
 
 -- Showing countries with Highest Death Count per Population -- 
@@ -82,6 +97,11 @@ FROM coviddeaths1
 where continent is not null
 Group by location
 order by TotalDeathCount DESC;
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_6.png
+
+
 
 
 
@@ -93,6 +113,11 @@ FROM coviddeaths1
 Where continent is not null
 Group by continent
 order by TotalDeathCount desc;
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_7.png
+
+
 
 
 -- Global numbers __
@@ -107,6 +132,10 @@ WHERE continent IS NOT NULL
 GROUP BY date
 ORDER BY date;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_8.png
+
+
 
 
 
@@ -119,9 +148,11 @@ FROM coviddeaths1
 WHERE continent IS NOT NULL
 ORDER BY  1,2;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_9.png
 
 
-      
+
       --  --*** Covid Vaccinations ***-- --
 -- Use CTE -- 
 
@@ -149,7 +180,8 @@ SELECT *,
        (CAST(RollingPeopleVaccinated AS DECIMAL) / NULLIF(CAST(population AS DECIMAL), 0)) * 100 AS VaccinationPercentage
 FROM PopvsVac;
 
-
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_10.png
 
 
 
@@ -186,12 +218,12 @@ SELECT *,
        (CAST(RollingPeopleVaccinated AS DECIMAL(18,2)) / NULLIF(CAST(population AS DECIMAL(18,2)), 0)) * 100 AS VaccinationPercentage
 FROM PercentPopulationVaccinated;
 
-
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_11.png
 
 
 
 -- Creating view to store data for later visualization
-
 
 CREATE VIEW PercentPopulationVaccinated AS
 SELECT 
@@ -211,6 +243,8 @@ WHERE dea.continent IS NOT NULL;
 Select * 
 from PercentPopulationVaccinated
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_12.png
 
 
 
