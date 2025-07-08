@@ -13,7 +13,7 @@ order by 3,4;
 from coviddeaths1 
  by 3,4; */ 
 
-[Ver imagen aquí](https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL.%20image%20covid%201.png?raw=true)
+![SQL Covid Image](https://raw.githubusercontent.com/DataAngel10/PortfolioAngel/main/imagenes/SQL.%20image%20covid%201.png)
 
 
 -- Select data that we are going to be using -- 
