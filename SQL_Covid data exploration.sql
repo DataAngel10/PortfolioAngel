@@ -13,7 +13,7 @@ order by 3,4;
 from coviddeaths1 
  by 3,4; */ 
 
-[View image here](https://raw.githubusercontent.com/DataAngel10/PortfolioAngel/main/imagenes/SQL%20image%20covid%201.png)
+-- [View table here](https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_1.png)
 
 
 
