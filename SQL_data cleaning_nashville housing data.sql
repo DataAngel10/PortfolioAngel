@@ -4,15 +4,25 @@
 Select *
 from`nashville housing data`;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_1.png
+-- 31171 row(s) returned
+
+
 
 SELECT *
 FROM `nashville housing data`
 -- Where PropertyAddress is null
 Order by ParcelID;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_2.png
 
 
--- Identifying records with missing PropertyAddress by joining the table to itself
+
+
+
+-- ***Identifying records with missing PropertyAddress by joining the table to itself*** --
 -- This query finds entries where PropertyAddress is NULL and attempts to retrieve 
 -- The corresponding address from another row with the same ParcelID but a different UniqueID.
 
@@ -27,6 +37,11 @@ JOIN `nashville housing data` b
     AND a.UniqueID <> b.UniqueID
 WHERE a.PropertyAddress IS NULL;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_3.png
+
+
+
 
 UPDATE `nashville housing data` a
 JOIN `nashville housing data` b
@@ -37,10 +52,18 @@ WHERE a.PropertyAddress IS NULL;
 
 
 
+
+
 -- ****Breaking out Address into Individual Columns (Address, City, State)**** -- 
 
 Select PropertyAddress
 From `nashville housing data`;
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_4.png
+
+
+
 
 
 -- This query extracts the street and city from the PropertyAddress column --   
@@ -53,6 +76,12 @@ SELECT
     -- Extract the city (everything after the first comma)
     SUBSTRING(PropertyAddress, LOCATE(',', PropertyAddress) + 2) AS PropertySplitCity  
 FROM `nashville housing data`;
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_5.png
+
+
+
 
 
 
@@ -72,9 +101,15 @@ Update `nashville housing data`
 SET PropertySplitCity = SUBSTRING(PropertyAddress, LOCATE(',', PropertyAddress) + 2);
 
 
+
+
 -- checking the result -- 
 Select *
 From `nashville housing data`;
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_6.png
+
 
 
 
@@ -83,6 +118,12 @@ From `nashville housing data`;
 
 Select OwnerAddress
 From `nashville housing data`;
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_7.png
+
+
+
 
 
 -- Split in Street, City and State -- 
@@ -97,6 +138,12 @@ SELECT
     -- Extract the state (third part)
     SUBSTRING_INDEX(OwnerAddress, ',', -1) 
 FROM `nashville housing data`;
+
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_8.png
+
+
 
 
 
@@ -128,8 +175,16 @@ ADD COLUMN OwnerSplitState VARCHAR(225);
 UPDATE `nashville housing data`
 SET OwnerSplitState = SUBSTRING_INDEX(OwnerAddress, ',', -1);
 
+
+
 Select *
 from `nashville housing data`;
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_9.png
+
+
+
 
 
 
@@ -141,6 +196,11 @@ From `nashville housing data`
 Group by SoldAsVacant
 order by 2;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_10.png
+
+
+
 
 SELECT
     CASE 
@@ -151,15 +211,21 @@ SELECT
     END
 FROM `nashville housing data`;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_11.png
+
+
 
 Update `nashville housing data`
 SET SoldAsVacant = CASE When SoldAsVacant = 'Y' THEN 'Yes'
 	WHEN SoldAsVacant = 'N' THEN 'No'
         ELSE SoldAsVacant
     END; 
+
     
-    
-    
+
+
+
 -- *** Remove Duplicates *** -- 
 -- Uses a CTE to assign row numbers to potential duplicate records, enabling identification and retrieval of these duplicates --
 
@@ -183,6 +249,9 @@ FROM RowNumCTE
 Where row_num > 1
 ORDER BY PropertyAddress;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_nashville_image_12.png
+    
 
 
 
@@ -209,11 +278,19 @@ WHERE UniqueID IN (
     WHERE row_num > 1
 );
 
+-- *50 rows affected
 
--- *** Delete Unused Columns***  -- 
+
 
 Select *
 From `nashville housing data`; 
+
+-- 31121 row(s) returned
+
+
+
+
+-- *** Delete Unused Columns***  -- 
 
 ALTER TABLE `nashville housing data`
 DROP COLUMN OwnerAddress,
@@ -223,9 +300,6 @@ DROP COLUMN PropertyAddress;
 ALTER TABLE `nashville housing data`
 DROP COLUMN  SaleDate; 
 
-
--- ***Data Source*** -- 
--- Nashville Housing Data. Available in Kaggle: https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data
 
 
 
