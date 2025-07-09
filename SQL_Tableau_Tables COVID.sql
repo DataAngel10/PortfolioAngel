@@ -12,6 +12,11 @@ FROM coviddeaths1
 WHERE continent IS NOT NULL
 ORDER BY  1,2;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_Tableau_covid_image_1.png
+
+
+
 
 -- Tableau table 2. Total Death Count by continent 
 
@@ -21,6 +26,11 @@ FROM coviddeaths1
 WHERE continent IS NOT NULL  -- Include only valid continents
 GROUP BY continent
 ORDER BY TotalDeathCount DESC;
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_Tableau_covid_image_2.png
+
+
 
 
 
@@ -35,6 +45,12 @@ FROM coviddeaths1
 Group by Location, Population,date
 ORDER BY PercentPopulationInfected desc;
 
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_Tableau_covid_image_3.png
+
+
+
+
 
 -- Tableau Table 4. Percent Population Infected (replace null to 0 in googlesheets)
 
@@ -47,4 +63,8 @@ SELECT
 FROM coviddeaths1 
 Group by Location, Population, date
 ORDER BY PercentPopulationInfected desc;
+
+-- View table here:
+-- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_Tableau_covid_image_4.png
+
 
