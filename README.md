@@ -38,7 +38,7 @@ I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or 
 - Business Health Plan & Product Design in Health with applied data-driven evaluation.
 
 
-# Check my Tableau
+# 💠 Check my Tableau
 https://public.tableau.com/app/profile/tableau.dataangel10/vizzes 
 
 
