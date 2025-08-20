@@ -35,7 +35,7 @@ I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or 
 - **Master Thesis**: Cohort study on elderly hip fracture patients in Leiden-Den Haag using Dutch GP digital records.
 - Scientific Writing & Literature Reviews on health, public health, vitality & ageing, and neuroscience topics.
 - International Health System Analysis & Policy Briefs.
-- Business Health Plan & Product Design in Health with applied data-driven evaluation.
+- Business Health Plan & Product Design in Health.
 
 
 # 💠 Check my Tableau
