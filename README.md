@@ -6,7 +6,7 @@ I am a multidisciplinary professional combining expertise in human health and da
 I turn complex data into actionable insights, bridging research and practical solutions in health, wellness, and behavioral science. 
 I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or Researcher in industry.
 
-# 🌟 Skills & Expertise
+# 🌟 Skills
 
 - **Data Analysis & Visualization** : Google Sheets, R (tidyverse, ggplot2), SQL, Tableau,  Python (Pandas, Matplotlib, Seaborn)
 - **Research Methods** : Quantitative & Qualitative methods.
