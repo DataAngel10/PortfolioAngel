@@ -1,6 +1,6 @@
 # Hi, I’m Angelica Ramos 👩🏻👋 
  
-*Kinesiology (Physical Therapy) (PUCV)| MSc in Vitality, Aging (LUMC) | PG diploma in Neuroscience & Neurorehabilitation (UNAB) | Junior Data Analyst (Google)*
+*Kinesiology (Physical Therapy) (PUCV)| MSc in Vitality, Aging (LUMC) | PG diploma in Applied Neuroscience & Neurorehabilitation (UNAB) | Junior Data Analyst (Google)*
 
 I am a multidisciplinary professional combining expertise in human health and data analytics. 
 I turn complex data into actionable insights, bridging research and practical solutions in health, wellness, and behavioral science. 
