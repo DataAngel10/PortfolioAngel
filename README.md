@@ -1,4 +1,4 @@
-# Hi, I’m Angelica Ramos 👋
+# Hi, I’m Angelica Ramos 👩🏻👋 
  
 *Kinesiology (Physical Therapy) (PUCV)| MSc in Vitality, Aging (LUMC) | PG diploma in Applied Neuroscience (UNAB) | Junior Data Analyst*
 
