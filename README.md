@@ -1,6 +1,6 @@
 # Hi, I’m Angelica Ramos 👩🏻👋 
  
-*Kinesiology (Physical Therapy) (PUCV)| MSc in Vitality, Aging (LUMC) | PG diploma in Applied Neuroscience (UNAB) | Junior Data Analyst*
+*Kinesiology (Physical Therapy) (PUCV)| MSc in Vitality, Aging (LUMC) | PG diploma in Neuroscience & Neurorehabilitation (UNAB) | Junior Data Analyst (Google)*
 
 I am a multidisciplinary professional combining expertise in human health and data analytics. 
 I turn complex data into actionable insights, bridging research and practical solutions in health, wellness, and behavioral science. 
@@ -32,7 +32,7 @@ I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or 
 
 # 📚 Other Projects & Research
 - **Bachelor Thesis**: Systematic review on neurodevelopment follow-up and early intervention in premature children.
-- **Master Thesis**: Cohort study on healthcare use in elderly hip fracture patients (Den Haag & Leiden).
+- **Master Thesis**: Cohort study on elderly hip fracture patients in Leiden-Den Haag using Dutch GP digital records.
 - Scientific Writing & Literature Reviews on health, public health, vitality & ageing, and neuroscience topics.
 - International Health System Analysis & Policy Briefs.
 - Business Health Plan & Product Design in Health with applied data-driven evaluation.
@@ -40,6 +40,8 @@ I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or 
 
 # 💠 Check my Tableau
 https://public.tableau.com/app/profile/tableau.dataangel10/vizzes 
+
+
 
 
 
