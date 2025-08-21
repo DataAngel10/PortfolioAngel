@@ -12,7 +12,7 @@ I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or 
 - **Research Methods** : Quantitative & Qualitative methods.
 - **Data Cleaning & Manipulation**: Google Sheets, SQL, R, Python.
 - **Statistics**: Descriptive & inferential statistics, regression analysis, hypothesis testing.
-- **Soft Skills**: Critical thinking, problem solving, interdisciplinary collaboration, effective communication.
+- **Soft Skills**: Critical thinking, problem solving, interdisciplinary collaboration, effective communication, adaptability.
 
 
 # 💻 Selected Projects
