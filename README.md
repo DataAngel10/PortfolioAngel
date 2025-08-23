@@ -1,4 +1,4 @@
-# Hi, I’m Angelica Ramos 👩🏻👋 
+# Hi, I’m DataAngel10 👩🏻👋 
  
 *Kinesiology (Physical Therapy) (PUCV)| MSc in Vitality, Aging (LUMC) | PG diploma in Applied Neuroscience & Neurorehabilitation (UNAB) | Junior Data Analyst (Google)*
 
