@@ -27,7 +27,7 @@ I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or 
 - Conducted data cleaning, exploratory analysis, and visualizations on biological datasets.
 - Tools: tidyverse,R, ggplot2.
 ## SQL Projects
-- **COVID**Data Exploration & Tableau Visualization – Cleaned, transformed, and visualized COVID-19 data for trend analysis.
+- **COVID** Data Exploration & Tableau Visualization – Cleaned, transformed, and visualized COVID-19 data for trend analysis.
 - **Nashville Housing** Data Cleaning – Prepared housing datasets for analysis with SQL queries.
 
   
@@ -39,7 +39,8 @@ https://public.tableau.com/app/profile/tableau.dataangel10/vizzes
 - **Bachelor Thesis**: Systematic review on neurodevelopment follow-up and early intervention in premature children.
 - **Master Thesis**: Cohort study on elderly hip fracture patients in Leiden-Den Haag using Dutch GP digital records.
 - Scientific Writing & Literature Reviews on health, public health, vitality & ageing, and neuroscience topics.
-- International Health System Analysis & Policy Briefs.
+- International Comparative Analyses of Health Care Systems & Policy Briefs.
+- Global Health Interventions.
 - Business Health Plan & Product Design in Health.
 
 
