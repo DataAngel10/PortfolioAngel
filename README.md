@@ -26,6 +26,8 @@ I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or 
 ## R Programming Project: Palmer Penguins
 - Conducted data cleaning, exploratory analysis, and visualizations on biological datasets.
 - Tools: tidyverse,R, ggplot2.
+## R Programming Project: Lung cancer survival
+- This project analyzes lung cancer survival using R, specifically the survival and survminer packages for Kaplan-Meier curves and Cumulative Hazard plots.
 ## SQL Projects
 - **COVID** Data Exploration & Tableau Visualization – Cleaned, transformed, and visualized COVID-19 data for trend analysis.
 - **Nashville Housing** Data Cleaning – Prepared housing datasets for analysis with SQL queries.
