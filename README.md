@@ -8,7 +8,7 @@ I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or 
 
 # 🌟 Skills
 
-- **Data Analysis & Visualization** : Google Sheets, R (tidyverse, ggplot2), SQL, Tableau,  Python (Pandas, Matplotlib, Seaborn)
+- **Data Analysis & Visualization** : Google Sheets, R (tidyverse, ggplot2, survival, survminer ), SQL, Tableau,  Python (Pandas, Matplotlib, Seaborn)
 - **Research Methods** : Quantitative & Qualitative methods.
 - **Data Cleaning & Manipulation**: Google Sheets, SQL, R, Python.
 - **Statistics**: Descriptive & inferential statistics, regression analysis, hypothesis testing.
