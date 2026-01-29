@@ -2,17 +2,18 @@
  
 *Kinesiology (Physical Therapy) (PUCV)| MSc in Vitality, Aging (LUMC) | PG diploma in Applied Neuroscience & Neurorehabilitation (UNAB) | Junior Data Analyst (Google)*
 
-I am a multidisciplinary professional combining expertise in human health and data analytics. 
-I turn complex data into actionable insights, bridging research and practical solutions in health, wellness, and behavioral science. 
-I am actively seeking opportunities as a Junior Data Analyst, PhD candidate, or Researcher in industry.
+With a background in physical therapy and an MSc from LUMC, I’m building on my clinical experience by developing a stronger focus on data. I enjoy using tools like R, SQL, and Python to help make sense of information and support research that has a real-world impact. I’m a lifelong learner who thrives on collaboration and staying curious about how we can turn data into practical results. I am now looking for my next step as a Junior Data Analyst, Researcher, or PhD candidate where I can continue to grow and contribute my dual perspective.
 
-# 🌟 Skills
+# 🌟 Technical Skills
 
-- **Data Analysis & Visualization** : Google Sheets, R (tidyverse, ggplot2, survival, survminer ), SQL, Tableau,  Python (Pandas, Matplotlib, Seaborn)
-- **Research Methods** : Quantitative & Qualitative methods.
-- **Data Cleaning & Manipulation**: Google Sheets, SQL, R, Python.
-- **Statistics**: Descriptive & inferential statistics, regression analysis, hypothesis testing.
-- **Soft Skills**: Critical thinking, problem solving, interdisciplinary collaboration, effective communication, adaptability.
+- **Data Analysis & Management:** Data Cleaning, Data Preparation, R (Tidyverse, ggplot2, survival, survminer, mice), SQL (BigQuery), Python, SPSS, Tableau.
+- **Statistical Methods:** T-test, Mann-Whitney U, Correlation Analysis, Kaplan-Meier, Log-Rank Testing, Cox Regression.
+- **Qualitative & Research:** Interviews, Systematic review, Evidence-based practice, MAXQDA.
+- **Design & Operations:** MS Office, Adobe Photoshop, Procreate.
+
+
+# 🌟 Soft Skills: 
+Critical thinking, problem solving, interdisciplinary collaboration, effective communication, adaptability.
 
 
 # 💻 Selected Projects
