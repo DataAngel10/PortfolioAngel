@@ -1,6 +1,6 @@
 # Hi, I’m DataAngel10 👩🏻👋 
  
-*Kinesiology (Physical Therapy) (PUCV)| MSc in Vitality, Aging (LUMC) | PG diploma in Applied Neuroscience & Neurorehabilitation (UNAB) | Junior Data Analyst (Google)*
+*Kinesiology (Physical Therapy) (PUCV)| MSc in Vitality, Aging (LUMC) | PG diploma in Applied Neuroscience & Neurorehabilitation (UNAB) |  Data Analytics
 
 With a background in physical therapy and an MSc from LUMC, I’m building on my clinical experience by developing a stronger focus on data. I enjoy using tools like R, SQL, and Python to help make sense of information and support research that has a real-world impact. I’m a lifelong learner who thrives on collaboration and staying curious about how we can turn data into practical results. I am now looking for my next step as a Junior Data Analyst, Researcher, or PhD candidate where I can continue to grow and contribute my dual perspective.
 
