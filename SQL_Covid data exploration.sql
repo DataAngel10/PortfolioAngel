@@ -1,5 +1,5 @@
 
-                                 -- Data explration covid data around de World--
+                                 -- Data exploration covid data around de World--
                                  
                                           -- -- *** Covid Deaths *** -- --
 
@@ -14,7 +14,7 @@ from coviddeaths1
  by 3,4; */ 
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_1.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_1.png
 
 
 
@@ -31,7 +31,7 @@ from coviddeaths1
 order by 1,2;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_2.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_2.png
 
 
 
@@ -51,7 +51,7 @@ and continent is not null
 ORDER BY 1,2;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_3.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_3.png
 
 
 
@@ -69,7 +69,7 @@ FROM coviddeaths1
 ORDER BY location, date;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_4.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_4.png
 
 
 
@@ -86,7 +86,7 @@ Group by Location, Population
 ORDER BY PercentPopulationInfected desc ;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_5.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_5.png
 
 
 
@@ -99,7 +99,7 @@ Group by location
 order by TotalDeathCount DESC;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_6.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_6.png
 
 
 
@@ -115,7 +115,7 @@ Group by continent
 order by TotalDeathCount desc;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_7.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_7.png
 
 
 
@@ -133,7 +133,7 @@ GROUP BY date
 ORDER BY date;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_8.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_8.png
 
 
 
@@ -149,7 +149,7 @@ WHERE continent IS NOT NULL
 ORDER BY  1,2;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_9.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_9.png
 
 
 
@@ -181,7 +181,7 @@ SELECT *,
 FROM PopvsVac;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_10.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_10.png
 
 
 
@@ -219,7 +219,7 @@ SELECT *,
 FROM PercentPopulationVaccinated;
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_11.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_11.png
 
 
 
@@ -244,7 +244,7 @@ Select *
 from PercentPopulationVaccinated
 
 -- View table here:
--- https://github.com/DataAngel10/PortfolioAngel/blob/main/imagenes/SQL_covid_12.png
+-- https://github.com/DataAngel10/COVID-19-Data-Exploration-SQL/blob/main/SQL_covid_12.png
 
 
 
